@@ -5,26 +5,26 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articles={`
-    article-one:{
+var articles={
+    'article-one':{
         title:'artone',
         heading:'articleone',
         content:
                 ' <p>content for art 1 </p> '
         
     },
-    article-two:{
+    'article-two':{
          title:'arttwo',
         heading:'articletwo',
         content:
                 ' <p>content for art 2 </p> '
     },
-    article-three:{
+   ' article-three':{
          title:'artthree',
         heading:'articlethree',
         content:' <p>content for art 3 </p> '
         
-    },`
+    },
 };
 
 function createtemplate(data){

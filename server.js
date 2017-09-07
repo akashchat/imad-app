@@ -13,7 +13,7 @@ var articles={
                 ' <p>content for art 1 </p> '
         
     },
-    'article-two':{
+    'articletwo':{
          title:'arttwo',
         heading:'articletwo',
         content:

@@ -5,6 +5,36 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articles={
+    articleone:{
+        title:'artone',
+        heading:'articleone',
+        content:
+                ' <p>content for art 1 </p> '
+        
+    },
+    articletwo:{
+         title:'arttwo',
+        heading:'articletwo',
+        content:
+                ' <p>content for art 2 </p> '
+    },
+    articlethree:{
+         title:'artthree',
+        heading:'articlethree',
+        content:' <p>content for art 3 </p> '
+        
+    },
+};
+
+
+
+
+
+
+
+
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });

@@ -18,5 +18,13 @@ body {
 
 .img-medium {
     height: 200px;
+    
+}
+.container{
+    max-width:800;
+    margin:0 auto;
+    color:grey;
+    padding-left:20;
+    padding-right:20;
 }
 
